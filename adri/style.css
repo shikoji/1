@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(fotos/1.png);
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .logo span{
+    color: blue;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+main .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.container .texto{
+    flex-basis: 50%;
+}
+
+.container .texto h2{
+    font-size: 45px;
+    color: white;
+}
+
+.container .texto h2 span{
+    color: blue
+}
+
+.container .texto p{
+    color: white;
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+.container .texto a{
+    padding: 1rem 4rem;
+    border: 2px solid blue;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+.container .texto a:hover{
+    background: transparent;
+}
+
+.container .img{
+    flex-basis: 45%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container .img img{
+    width: 90%;
+    height: 90%;
+    border: 5px solid blue;
+    border-radius: 100px;
+    background-color: wheat;
+}
+
